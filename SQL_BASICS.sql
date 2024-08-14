@@ -1,9 +1,12 @@
-/** Grocery list:
-Bananas(4), Peanut butter (1), chocolate(2)**/
+/** Grocery list**/
+ 
+CREATE TABLE groceries (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, aisle INTEGER);
 
-CREATE TABLE groceries(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+INSERT INTO groceries VALUES (1, "Bananas", 4, 7);
+INSERT INTO groceries VALUES(2, "Peanut Butter", 1, 2);
+INSERT INTO groceries VALUES(3, "Dark Chocolate Bars", 2, 2);
+INSERT INTO groceries VALUES(4, "Ice cream", 1, 12);
+INSERT INTO groceries VALUES(5, "Cherries", 1, 2);
+INSERT INTO groceries VALUES(6, "Chocolate syrup", 0, 4);
 
-INSERT INTO groceries VALUES(1, "Bananas",4);
-INSERT INTO groceries VALUES(2, "Peanut butter",1);
-INSERT INTO groceries VALUES(3, "Chocolate",2);
-SELECT * FROM groceries;
+SELECT name FROM groceries;
