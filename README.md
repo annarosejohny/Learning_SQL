@@ -1,6 +1,6 @@
-# Introduction to SQL
+# Introduction to SQL (Structured Query Language)
 
-## Repository includes the notes and data from Datacamp "Introduction to SQL" course
+## Repository includes the notes and data from Khan academy "Introduction to SQL" course
 
 - Tables
     - Tables are organized as rows and columns.
