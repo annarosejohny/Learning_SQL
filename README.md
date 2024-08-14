@@ -1,3 +1,3 @@
-## Introduction to SQL
+# Introduction to SQL
 
-# Repository includes the notes and data from Datacamp "Introduction to SQL" course
+## Repository includes the notes and data from Datacamp "Introduction to SQL" course
