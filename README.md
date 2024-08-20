@@ -13,8 +13,15 @@
     - **Strings** - sequence of characters such as letters or punctuation. Eg: names (Anna, Antus). **VARCHAR**
     - **Integers** - Store whole numbers. Eg:1,35. **INT**
     - **Floats** - Stores numbers that include fractional part. Eg: 9.86,7.004. **NUMERIC**
-- Operators
+- Queries
     - AND
     - OR
     - IN
     - LIKE
+    - HAVING
+- Aggregate functions
+    - SUM
+    - MIN
+    - MAX
+    - AVG -average
+    - COUNT
