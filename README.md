@@ -17,4 +17,4 @@
     - AND
     - OR
     - IN
-    - 
+    - LIKE
