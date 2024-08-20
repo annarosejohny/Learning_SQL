@@ -11,11 +11,11 @@ INSERT INTO groceries VALUES(6, "Chocolate syrup", 0, 4);
 
 SELECT name FROM groceries WHERE aisle > 5 ORDER BY aisle;
 
-# Calculate sum
+/* Calculate sum*/
 SELECT aisle, SUM(quantity) FROM groceries GROUP BY aisle;
-# answer = |aisle |sum|
+/*answer = |aisle |sum|
            |2     |9  |
-           |4     |1  | ...
+           |4     |1  | ...*/
 
 
 
