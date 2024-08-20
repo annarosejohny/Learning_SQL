@@ -9,4 +9,6 @@ INSERT INTO groceries VALUES(4, "Ice cream", 1, 12);
 INSERT INTO groceries VALUES(5, "Cherries", 1, 2);
 INSERT INTO groceries VALUES(6, "Chocolate syrup", 0, 4);
 
-SELECT name FROM groceries;
+SELECT name FROM groceries WHERE aisle > 5 ORDER BY aisle;
+
+
