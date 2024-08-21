@@ -26,5 +26,6 @@
     - AVG -average
     - COUNT
     - ROUND
+    - AUTOINCREMENT
 - CASE
 ![CASE](https://github.com/user-attachments/assets/be66d6cd-66fe-45de-9b8b-384cdb61ce1e)
