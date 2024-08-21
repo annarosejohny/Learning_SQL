@@ -19,6 +19,8 @@
     - IN
     - LIKE
     - HAVING
+      ![Having](https://github.com/user-attachments/assets/e1b9b690-d21d-4639-a0fe-e27ff95c0ad9)
+
 - Aggregate functions
     - SUM
     - MIN
