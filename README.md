@@ -20,7 +20,20 @@
     - LIKE
     - HAVING
       ![Having](https://github.com/user-attachments/assets/e1b9b690-d21d-4639-a0fe-e27ff95c0ad9)
-
+- Relational Queries
+    - **JOIN**
+        - **Cross join**
+            - Eg: **SELECT * FROM student_grades, students;**
+            - Each row in first table, it creates a row for the second table. For example, if first table contains 2 rows and second table contain 4 rows, the final "Cross Join" return a table with 8 rows(2*4).
+        - **Implicit Inner join**
+            - Eg: **SELECT * FROM student_grades, students
+    WHERE student_grades.student_id = students.id;**
+            - Join only rows and columns that are same.
+        - **SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
+    JOIN student_grades
+    ON students.id = student_grades.student_id;**
+            - Results same as implicit join
+            - 
 - Aggregate functions
     - SUM
     - MIN
