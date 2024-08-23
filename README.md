@@ -23,17 +23,20 @@
 - Relational Queries
     - **JOIN**
         - **Cross join**
-            - Eg: **SELECT * FROM student_grades, students;**
+            - Eg: _SELECT * FROM student_grades, students;_
             - Each row in first table, it creates a row for the second table. For example, if first table contains 2 rows and second table contain 4 rows, the final "Cross Join" return a table with 8 rows(2*4).
         - **Implicit Inner join**
-            - Eg: **SELECT * FROM student_grades, students
-    WHERE student_grades.student_id = students.id;**
+            - Eg: _SELECT * FROM student_grades, students
+    WHERE student_grades.student_id = students.id;_
             - Join only rows and columns that are same.
-        - **SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
+        -_ SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
     JOIN student_grades
-    ON students.id = student_grades.student_id;**
+    ON students.id = student_grades.student_id;_
             - Results same as implicit join
-            - 
+            - Creates only tables of matching rows/columns.
+        - **Left outer join**
+            - Eg: _SELECT students.first_name, students.last_name, student_projects.title FROM students LEFT OUTER JOIN student_projects ON students.id = student_projects.student_id;_
+            - Joins all the rows in tables
 - Aggregate functions
     - SUM
     - MIN
