@@ -29,7 +29,7 @@
             - Eg: _SELECT * FROM student_grades, students
     WHERE student_grades.student_id = students.id;_
             - Join only rows and columns that are same.
-        -_ SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
+            -_ SELECT students.first_name, students.last_name, students.email, student_grades.test, student_grades.grade FROM students
     JOIN student_grades
     ON students.id = student_grades.student_id;_
             - Results same as implicit join
@@ -37,6 +37,12 @@
         - **Left outer join**
             - Eg: _SELECT students.first_name, students.last_name, student_projects.title FROM students LEFT OUTER JOIN student_projects ON students.id = student_projects.student_id;_
             - Joins all the rows in tables
+        - **Self join**
+            - Eg: _SELECT students.first_name, students.last_name, buddies.email as buddy_email FROM students JOIN students buddies_
+    ON students.buddy_id = buddies.id;
+            - A table joined to itself.
+        - **Combining multiple joins**
+            - Eg: _SELECT a.title, b.title FROM project_pairs JOIN student_projects a ON project_pairs.project1_id = a.id JOIN student_projects b ON project_pairs.project2_id = b.id;_
 - Aggregate functions
     - SUM
     - MIN
