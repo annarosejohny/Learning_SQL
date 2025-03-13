@@ -1,6 +1,6 @@
 # Introduction to SQL (Structured Query Language)
 
-## Repository includes the notes and data from Khan academy "Introduction to SQL" course
+## Repository includes SQL fundamentals
 
 - Tables
     - Tables are organized as rows and columns.
