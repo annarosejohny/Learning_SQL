@@ -1,6 +1,6 @@
-### Introduction to SQL (Structured Query Language)
+## Introduction to SQL (Structured Query Language)
 
-## Repository includes SQL fundamentals
+### Repository includes SQL fundamentals
 - SQL is a computer language for relational database management and data manipulation.
 - Used to query, insert, update and modify data.
 - Used to communicate with databases
