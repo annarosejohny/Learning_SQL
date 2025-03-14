@@ -17,7 +17,7 @@
   - Fields are limited, number of rows are unlimited.
   - Table rows are named as lowercase, no spaces (undescores instead), collective group or plural. Table rows holds data on an individual obdervation.
   - Table columns are named as lowercase, no spaces, singular. Table columns hold one piece of information about all records. Two columns cannot have same name.
-  - Uniques identifiers are used to identofy records in a table.
+  - Uniques identifiers are used to identify records in a table.
 - **Data models**
   - **Relational model**
     - Allows for easy querying and data manipulation in an easy, logical and intutive way
@@ -59,6 +59,15 @@
   - Select all columns using "*"
 ![SELECT_ALL](https://github.com/user-attachments/assets/cfe916f1-a617-418b-9e82-fef4b3da02c5)
 
+- **LIMIT**
+  - Eg: SELECT prod_name
+        FROM products;
+        LIMIT 5
+
+- Creating new tables
+  - CREATE TABLE shoes
+    (Id char(10) PRIMARY KEY,
+    Brand char(10) NOT NULL);
 - **Queries**
     - AND
     - OR
