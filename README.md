@@ -26,20 +26,47 @@
     - Operational database
 - **Data models building blocks**
   - **Entity**
+    - Person, place or event
+    - Distinguishable, unique and distinct
   - **Attribute**
+    - Characteristics of entity
   - **Relationship**
+    - Association among different entities
+      - one-to-many: customer to invoices
+      - many-to-many: student to classes
+      - one-to-one: manager to store
+- **ER diagrams**
+  - ER model is composed of entity types and specifies the relationships that exists netween the instances of those entities.
+![ER_model](https://github.com/user-attachments/assets/c7d11070-2f06-4cc1-ac22-8f64cc72aa29)
+  - ER diagrams shows the relationships, business process, show links(primary keys), represented visually
+  - **Primary key and foreign key**
+    - Primary key: a column(or a set of columns) whose values uniquely identify every row in a table
+    - Foreign key: One or more columns that can be used together to identify a single row in another table
+  - **ER diagram notation**
+    - Chen notation
+    - Crow's foot notation
+    - UML class diagram notation
+  ![ER_diagram_notation](https://github.com/user-attachments/assets/50789f95-5f95-4206-99b2-2d1ecc1b3cd8)
 - **Data types**
     - **Strings** - sequence of characters such as letters or punctuation. Eg: names (Anna, Antus). **VARCHAR**
     - **Integers** - Store whole numbers. Eg:1,35. **INT**
     - **Floats** - Stores numbers that include fractional part. Eg: 9.86,7.004. **NUMERIC**
-- Queries
+- **SELECT**
+  - need to specify two pieces of information to use a SELECT statement: What you want and where you want to select it from.
+![SELECT](https://github.com/user-attachments/assets/7a8343bf-b9d1-4e17-be81-ac96ae790942)
+  - Add multiple column names, we need to use "comma"
+![SELECT_multi](https://github.com/user-attachments/assets/326db962-983b-4e0c-824c-da3f6a054755)
+  - Select all columns using "*"
+![SELECT_ALL](https://github.com/user-attachments/assets/cfe916f1-a617-418b-9e82-fef4b3da02c5)
+
+- **Queries**
     - AND
     - OR
     - IN
     - LIKE
     - HAVING
       ![Having](https://github.com/user-attachments/assets/e1b9b690-d21d-4639-a0fe-e27ff95c0ad9)
-- Relational Queries
+- **Relational Queries**
     - **JOIN**
         - **Cross join**
             - Eg: _SELECT * FROM student_grades, students;_
