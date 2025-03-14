@@ -61,13 +61,14 @@
 
 - **LIMIT**
   - Eg: SELECT prod_name
-        FROM products;
-        LIMIT 5
+        FROM products
+        LIMIT 5;
 
 - Creating new tables
-  - CREATE TABLE shoes
-    (Id char(10) PRIMARY KEY,
+  - CREATE TABLE shoes \\
+    (Id char(10) PRIMARY KEY,\\
     Brand char(10) NOT NULL);
+  
 - **Queries**
     - AND
     - OR
