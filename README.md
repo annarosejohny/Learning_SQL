@@ -65,7 +65,7 @@
         LIMIT 5;
 
 - Creating new tables
-  - CREATE TABLE shoes \\
+  - CREATE TABLE shoes <br>
     (Id char(10) PRIMARY KEY,\\
     Brand char(10) NOT NULL);
   
