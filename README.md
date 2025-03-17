@@ -118,9 +118,40 @@
   - **IN** - specifies range of condition
 
     ![in](https://github.com/user-attachments/assets/868b8321-033e-494e-8dc9-2a21ddf659ae)
-  - LIKE
-  - HAVING
-      ![Having](https://github.com/user-attachments/assets/e1b9b690-d21d-4639-a0fe-e27ff95c0ad9)
+  - **LIKE**
+    - Can only be used with strings
+  - Using **%** or **_** wildcards
+   
+    ![wildcard1](https://github.com/user-attachments/assets/4e212ae7-1724-480e-8371-1efd81e62b23)
+   ![wildcard2](https://github.com/user-attachments/assets/867fb4f8-3cb7-4fe2-9270-86114868b86c)
+    
+- **HAVING**
+  - to filter groups
+
+    ![Having](https://github.com/user-attachments/assets/e1b9b690-d21d-4639-a0fe-e27ff95c0ad9)
+  ![having2](https://github.com/user-attachments/assets/afd8dece-24ee-439c-9f2c-3faeb2d1c346)
+
+    
+- Grouping **Group by**
+  - group by doesnot sort data
+  ![groupby](https://github.com/user-attachments/assets/fc6ac7a2-d1d1-4d41-9ead-cfc9c125d4cf)
+
+- Sorting with **order by**
+  - orderby sorts data
+  ![order_by](https://github.com/user-attachments/assets/ebabe7ff-6c73-4ceb-9aa9-fa5538345277)
+- Clauses
+  
+![clauses](https://github.com/user-attachments/assets/e375f195-657f-484f-bb4f-88e0818c97ea)
+
+- Math operations
+
+  ![math](https://github.com/user-attachments/assets/743f58b1-abdc-4d5e-8c05-bcbc1fd11f4a)
+  - order of operations
+    
+    ![order](https://github.com/user-attachments/assets/25039e42-8926-42b6-b267-6e282614b340)
+
+    ![math2](https://github.com/user-attachments/assets/ab4ea1cc-e3e6-45c3-af67-aef279afbd99)
+
 - **Relational Queries**
     - **JOIN**
         - **Cross join**
@@ -145,11 +176,26 @@
         - **Combining multiple joins**
             - Eg: _SELECT a.title, b.title FROM project_pairs JOIN student_projects a ON project_pairs.project1_id = a.id JOIN student_projects b ON project_pairs.project2_id = b.id;_
 - Aggregate functions
-    - SUM
-    - MIN
-    - MAX
-    - AVG -average
-    - COUNT
+    - **SUM**
+
+      ![sum](https://github.com/user-attachments/assets/1445e941-f475-41a2-afd7-f38d896e8b7b)
+
+    - **MIN** & **MAX**
+
+  ![min_max](https://github.com/user-attachments/assets/be80e7bd-4b08-4317-b74a-89d1147fb64c)
+      
+    - **AVG** -average
+
+      ![avg](https://github.com/user-attachments/assets/df174400-c31e-44f7-9170-aee3f2772322)
+
+    - **COUNT**
+
+      ![count](https://github.com/user-attachments/assets/2c371d22-aea8-4b8c-9581-abd68ba0c073)
+ 
+    - **DISTINCT**
+
+      ![distinct](https://github.com/user-attachments/assets/fb4ced1c-0cac-4060-b522-4ec62a73f64b)
+
     - ROUND
     - AUTOINCREMENT
 - CASE
