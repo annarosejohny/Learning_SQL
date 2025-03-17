@@ -35,12 +35,12 @@
       - one-to-many: customer to invoices
       - many-to-many: student to classes
       - one-to-one: manager to store
-- **ER diagrams**
+- **ER(Entity Relationship) diagrams**
   - ER model is composed of entity types and specifies the relationships that exists netween the instances of those entities.
 ![ER_model](https://github.com/user-attachments/assets/c7d11070-2f06-4cc1-ac22-8f64cc72aa29)
   - ER diagrams shows the relationships, business process, show links(primary keys), represented visually
   - **Primary key and foreign key**
-    - Primary key: a column(or a set of columns) whose values uniquely identify every row in a table
+    - Primary key: a column(or a set of columns) whose values uniquely identify every row in a table. It should always have a value.
     - Foreign key: One or more columns that can be used together to identify a single row in another table
   - **ER diagram notation**
     - Chen notation
@@ -60,15 +60,39 @@
 ![SELECT_ALL](https://github.com/user-attachments/assets/cfe916f1-a617-418b-9e82-fef4b3da02c5)
 
 - **LIMIT**
-  - Eg: SELECT prod_name
-        FROM products
-        LIMIT 5;
+  - Eg: SELECT prod_name<br>
+        FROM products<br>
+        LIMIT 5;<br>
 
 - Creating new tables
-  - CREATE TABLE shoes <br>
-    (Id char(10) PRIMARY KEY,\\
-    Brand char(10) NOT NULL);
-  
+  - **CREATE TABLE** shoes <br>
+    (Id char(10) PRIMARY KEY,<br>
+    Brand char(10) NOT NULL,<br>
+    Type char(250) NOT NULL);<br>
+  - Every column is either NULL or NOT NULL.
+  - Adding data into table
+    - **INSERT INTO** shoes<br>
+      VALUES ('123',<br>
+      'GUCCI',<br>
+      'Slippers')<br>
+- Creating temporary tables
+  - Temporary tables will be deleted when current session is terminated
+  - Temporary tables can be used to simplify tables by creating a subset and then joining to that subset and derive a new calculation.
+  - Eg: **CREATE TEMPORARY TABLE** Sandals AS<br>
+    (<br>
+    SELECT * <br>
+    FROM Shoes<br>
+    WHERE shoe_type = 'sandals'<br>
+    )<br>
+
+- Adding comments in SQL
+  - Single line comments
+    - uses '- -'. The line that uses '- -'will be commented and not executed
+    ![single](https://github.com/user-attachments/assets/395de24b-5dec-4e03-a8f2-55cbc3799d0c)
+  - Section comments
+    - uses '/*     */'. All the lines between these symbols will be commented and not executed.
+    ![section](https://github.com/user-attachments/assets/33809a42-0326-4587-a662-eb7342509a6f)
+
 - **Queries**
     - AND
     - OR
