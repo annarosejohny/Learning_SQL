@@ -157,8 +157,8 @@
   ![Subquery](https://github.com/user-attachments/assets/59eb745d-738a-40ce-a86e-f47d577a9d8e)
   - There is no limit to number of subqueries you can have
   - Subquery selects a single column at a time
-  - Performance slows when you nest too deeply
-| Pros| Cons|
+  - Performance slows when you nest too deeply<br>
+| Pros | Cons |
 |-----|-----|
 |1. Flexibility|1. Performance|
 - **Relational Queries**
