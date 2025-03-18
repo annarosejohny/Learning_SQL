@@ -158,9 +158,11 @@
   - There is no limit to number of subqueries you can have
   - Subquery selects a single column at a time
   - Performance slows when you nest too deeply<br>
+  
 | Pros | Cons |
 | :-- | :-- |
 |1. Flexibility|1. Performance|
+
 - **Relational Queries**
     - **JOIN**
         - **Cross join**
