@@ -159,7 +159,7 @@
   - Subquery selects a single column at a time
   - Performance slows when you nest too deeply<br>
 | Pros | Cons |
-|-----|-----|
+| :-- | :-- |
 |1. Flexibility|1. Performance|
 - **Relational Queries**
     - **JOIN**
