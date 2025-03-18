@@ -162,6 +162,9 @@
 | Pros | Cons |
 | :-- | :-- |
 |1. Flexibility|1. Performance|
+|2. Readability|2. Complexity|
+|3. Isolation of logic|3. Limited functionalty|
+|4. Avoiding joins|4. DBMS support|
 
 - **Relational Queries**
     - **JOIN**
