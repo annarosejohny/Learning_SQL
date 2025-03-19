@@ -45,21 +45,15 @@
 
       - **Left join**
         
-        ![left_join](https://github.com/user-attachments/assets/4c0431c9-2dec-4652-8cc5-edf24e872324)
-
-        ![left_join1](https://github.com/user-attachments/assets/a0cd99f2-c24b-43bc-a1c3-0335ec3c648c)
+        ![left_join](https://github.com/user-attachments/assets/4c0431c9-2dec-4652-8cc5-edf24e872324) ![left_join1](https://github.com/user-attachments/assets/a0cd99f2-c24b-43bc-a1c3-0335ec3c648c)
 
       - **Right join**
       
-      ![right_join](https://github.com/user-attachments/assets/7a4493b9-a8b1-4b33-8585-51bdb5dddd39)
-      
-      ![right_join1](https://github.com/user-attachments/assets/bc8ab7ae-7743-4ec2-9eb8-283a1c91fca4)
+      ![right_join](https://github.com/user-attachments/assets/7a4493b9-a8b1-4b33-8585-51bdb5dddd39) ![right_join1](https://github.com/user-attachments/assets/bc8ab7ae-7743-4ec2-9eb8-283a1c91fca4)
 
       - **Full outer join**
       
-      ![full_outer_join](https://github.com/user-attachments/assets/bab5ad5e-64a6-4879-9f25-61ea34c1727b)
-      
-      ![full_outer_join1](https://github.com/user-attachments/assets/eff88aca-f4d8-4aa1-bd01-4956ae29531a)
+      ![full_outer_join](https://github.com/user-attachments/assets/bab5ad5e-64a6-4879-9f25-61ea34c1727b) ![full_outer_join1](https://github.com/user-attachments/assets/eff88aca-f4d8-4aa1-bd01-4956ae29531a)
           
       - **Combining multiple joins**
             - Eg: _SELECT a.title, b.title FROM project_pairs JOIN student_projects a ON project_pairs.project1_id = a.id JOIN student_projects b ON project_pairs.project2_id = b.id;_
