@@ -33,13 +33,15 @@
       - **Self join**
         - Join original table to itself
           
-![self_join](https://github.com/user-attachments/assets/6c35ddd8-1df7-4903-9c5d-b7e20612e811)
+        ![self_join](https://github.com/user-attachments/assets/6c35ddd8-1df7-4903-9c5d-b7e20612e811)
+
         - Aliases
           - Aliases gives a table or a column a temporary name
           - Make column names more readable
           - An alias only exists for the duration of query
         
-        ![aliases](https://github.com/user-attachments/assets/c9ff2480-b043-4234-85a2-4aa879664052)
+        ![aliases](https://github.com/user-attachments/assets/e254bcfe-e772-4f68-a80c-478790520a10)
+
 
       - **Left join**
         
