@@ -58,6 +58,10 @@
       - **Combining multiple joins**
             - Eg: _SELECT a.title, b.title FROM project_pairs JOIN student_projects a ON project_pairs.project1_id = a.id JOIN student_projects b ON project_pairs.project2_id = b.id;_
 
+![SQL_JOINS](https://github.com/user-attachments/assets/803f99eb-f4bc-4256-8ca8-63ec17c19fb9)
+
+
+
 - **Union**
   - Union is used to combine the result-set of tqo or more SELECT statements
   - Each SELECT statement within UNION must have same number of columns
