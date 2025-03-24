@@ -63,7 +63,7 @@
 
 
 - **Union**
-  - Union is used to combine the result-set of tqo or more SELECT statements
+  - Union is used to combine the result-set of two or more SELECT statements
   - Each SELECT statement within UNION must have same number of columns
   - Columns must have similar data types
   - The columns in each SELECT statement must ne in the same order
