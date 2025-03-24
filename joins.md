@@ -66,6 +66,6 @@
   - Union is used to combine the result-set of two or more SELECT statements
   - Each SELECT statement within UNION must have same number of columns
   - Columns must have similar data types
-  - The columns in each SELECT statement must ne in the same order
+  - The columns in each SELECT statement must be in the same order
 
     ![union](https://github.com/user-attachments/assets/84dacbf0-076b-4a0b-9901-1896adffbb1c)
