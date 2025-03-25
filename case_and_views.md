@@ -22,3 +22,16 @@
 -  The view can be removed after database connection has ended
 
   ![views](https://github.com/user-attachments/assets/5999ed82-8ac2-42a3-a029-c883e7470160)
+
+![views1](https://github.com/user-attachments/assets/a18e70da-6641-49ac-805d-72bfdb5f0d23)
+
+
+![views_ex](https://github.com/user-attachments/assets/38af4ca9-d521-4aac-ad90-81a8a5f9ece8)
+
+
+
+
+
+
+
+
