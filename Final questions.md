@@ -1,4 +1,4 @@
-[2oDLa7X0QnCuYmqLFs5bbg_4124f56804084ec884ef97089ed52ef1_yogurt_production.csv](https://github.com/user-attachments/files/19464612/2oDLa7X0QnCuYmqLFs5bbg_4124f56804084ec884ef97089ed52ef1_yogurt_production.csv)## Scenario: 
+[yogurt_production.csv](https://github.com/user-attachments/files/19464685/yogurt_production.csv)[2oDLa7X0QnCuYmqLFs5bbg_4124f56804084ec884ef97089ed52ef1_yogurt_production.csv](https://github.com/user-attachments/files/19464612/2oDLa7X0QnCuYmqLFs5bbg_4124f56804084ec884ef97089ed52ef1_yogurt_production.csv)## Scenario: 
 
 Data Scientist at USDA (United States Department of Agriculture)
 
@@ -9,14 +9,12 @@ You are a Data Scientist working at the USDA. Your department has been tracking 
 Your datasets include:
 
 `milk_production`, `cheese_production`, `coffee_production`, `honey_production`, `yogurt_production`, and a `state_lookup` table. 
-[state_lookup.csv]</br>(https://github.com/user-attachments/files/19464614/19-hx8-BR_-X1DPaV5IPvw_13da3a9d4c244bcb87a24f7367e492f1_state_lookup.csv)</br>
-[d8zmGGSKQ5-IF7c4DXBz6Q_60a7f48eface44f59708149f249585f1_cheese_production.csv](https://github.com/user-attachments/files/19464620/d8zmGGSKQ5-IF7c4DXBz6Q_60a7f48eface44f59708149f249585f1_cheese_production.csv)</br>
-
-[X-LJUUv5SuyuwXCNIG7wGQ_31442ea85cab45858dc0881c6e15dbf1_honey_production.csv](https://github.com/user-attachments/files/19464619/X-LJUUv5SuyuwXCNIG7wGQ_31442ea85cab45858dc0881c6e15dbf1_honey_production.csv)</br>
-[hqFfV_kBR8ikF2T4p-X9Iw_3c34b5199b614bb19e7d56936872dff1_milk_production.csv](https://github.com/user-attachments/files/19464618/hqFfV_kBR8ikF2T4p-X9Iw_3c34b5199b614bb19e7d56936872dff1_milk_production.csv)</br>
-[B7_yyiTsRnCz1j19KE-_xA_4c4db332472344238d67147334902df1_coffee_production.csv](https://github.com/user-attachments/files/19464617/B7_yyiTsRnCz1j19KE-_xA_4c4db332472344238d67147334902df1_coffee_production.csv)</br>
-[DXHlHzfeTiWg6EH8gsGf3g_500a03b1b95f41518a73c1368c767cf1_egg_production.csv]</br>(https://github.com/user-attachments/files/19464615/DXHlHzfeTiWg6EH8gsGf3g_500a03b1b95f41518a73c1368c767cf1_egg_production.csv)
-ng 2oDLa7X0QnCuYmqLFs5bbg_4124f56804084ec884ef97089ed52ef1_yogurt_production.csv…]()</br>
+[Uploa[state_lookup.csv](https://github.com/user-attachments/files/19464686/state_lookup.csv)</br>[cheese_production.csv](https://github.com/user-attachments/files/19464691/cheese_production.csv)</br>
+[honey_production.csv](https://github.com/user-attachments/files/19464690/honey_production.csv)</br>
+[milk_production.csv](https://github.com/user-attachments/files/19464689/milk_production.csv)</br>
+[coffee_production.csv](https://github.com/user-attachments/files/19464688/coffee_production.csv)</br>
+[egg_production.csv](https://github.com/user-attachments/files/19464687/egg_production.csv)</br>
+ding yogurt_production.csv…]()</br>
 
 
 The data spans multiple years and states, with varying levels of production for each commodity.
