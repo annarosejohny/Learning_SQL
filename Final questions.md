@@ -11,7 +11,7 @@ Your datasets include:
 `milk_production`, `cheese_production`, `coffee_production`, `honey_production`, `yogurt_production`, and a `state_lookup` table. 
 
 [yogurt_production.csv](https://github.com/user-attachments/files/19464709/yogurt_production.csv)</br>
-[Uploading sta[egg_production.csv](https://github.com/user-attachments/files/19464752/egg_production.csv)</br>
+[egg_production.csv](https://github.com/user-attachments/files/19464752/egg_production.csv)</br>
 [cheese_production.csv](https://github.com/user-attachments/files/19464758/cheese_production.csv)</br>
 [honey_production.csv](https://github.com/user-attachments/files/19464757/honey_production.csv)</br>
 [milk_production.csv](https://github.com/user-attachments/files/19464755/milk_production.csv)</br>
