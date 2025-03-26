@@ -29,7 +29,7 @@ NOTE: All answer entries are numeric and only numbers and periods. The autograde
 
 What is the total milk production for 2023?
 
-SELECT SUM(mp.value) <\br>
+SELECT SUM(mp.value) </br>
 FROM milk_production mp <\br>
 WHERE mp.year = 2023;<\br>
 
