@@ -140,10 +140,73 @@ WHERE hp.value >100000000);</br>**
 
 **Answer: 6426666.666666667**
 
+11. Find the total milk production for the year 2023.
 
+**SELECT SUM(Value) </br>
+FROM milk_production </br>
+WHERE Year = 2023;</br>**
 
+**Answer: 91812000000**
 
+12. Show coffee production data for the year 2015.
 
+What is the total value?
+
+**SELECT SUM(value) AS 'Total coffee production' </br>
+FROM coffee_production</br>
+WHERE year= 2015;</br>**
+
+**Answer: 6600000**
+
+13. Find the average honey production for the year 2022.
+
+**SELECT AVG(value)</br>
+FROM honey_production</br>
+WHERE year=2022;** </br>
+**Answer:3133275**
+
+14. Get the state names with their corresponding ANSI codes from the state_lookup table.
+
+What number is Iowa?
+
+**SELECT state, state_ANSI</br>
+FROM state_lookup</br>
+WHERE state LIKE "IOWA";</br>**
+
+**Answer: 19**
+
+15. Find the highest yogurt production value for the year 2022
+
+**SELECT MAX(VALUE) </br>
+FROM yogurt_production</br>
+WHERE year=2022;** </br>
+
+**Answer: 793256000**
+
+16. Find states where both honey and milk were produced in 2022.
+
+Did State_ANSI "35" produce both honey and milk in 2022?
+
+**SELECT DISTINCT hp.State_ANSI </br>
+FROM honey_production hp</br>
+JOIN milk_production mp </br>
+ON hp.State_ANSI = mp.State_ANSI</br>
+WHERE hp.Year = 2022 AND mp.Year = 2022;</br>**
+
+**Answer: NO**
+
+17. Find the total yogurt production for states that also produced cheese in 2022
+
+**SELECT SUM(yp.Value)</br>
+FROM yogurt_production yp</br>
+WHERE yp.Year = 2022 AND yp.State_ANSI </br>
+IN (</br>
+SELECT DISTINCT cp.State_ANSI </br>
+FROM cheese_production cp </br>
+WHERE cp.Year = 2022</br>
+);</br>**
+
+**Answer: 2342190000**
 
 
 
